@@ -1,0 +1,23 @@
+import random
+import config
+from circle import Circle
+from point import Point
+
+class Stars(Circle):
+	def __init__(self):
+		position = Point(random.randint(0,config.SCREEN_X),random.randint(0,config.SCREEN_Y))
+		radius = config.STAR_RADIUS
+		rotation = 0
+		random_color = random.randint(0, 255)
+		color = (random_color, random_color , random_color)
+		Circle.__init__(self, position, radius, color, rotation)
+	
+	def game_logic(self):
+		random_color = random.randint(-config.STAR_TWINKLE_SPEED, config.STAR_TWINKLE_SPEED)
+		new_color = self.color[0] + random_color
+		if new_color > 255:
+			new_color = 255
+		if new_color < 0:
+			new_color = 0
+		self.color = (new_color, new_color, new_color)
+		

@@ -1,0 +1,86 @@
+
+Install Requirements
+---------------------
+In order for this game to run you must download python version 2.6 and pygame both links are provided bellow:
+
+Python 2.6:
+http://www.python.org/ftp/python/2.6.4/python-2.6.4.msi
+pygame: http://pygame.org/ftp/pygame-1.9.1.win32-py2.6.msi
+
+
+
+
+The game has  sound effects, new keys which are mapped bellow, a functional ship shield, saves and displays 10 
+high scores,
+a single nuke you can use  once per game a teleport function which sets your position on the screen to
+ a random point.
+It also has multiple levels that add asteroids each level if you pass it.
+
+
+----------------------------------------------------------
+
+
+
+
+Key Mapping
+
+------------------------------------------------------------------------
+--------Up:		thrusters
+------------------------------------------------------------------------
+--------Down:		reverse thrusters
+
+------------------------------------------------------------------------
+--------end:		right side thrusters
+
+------------------------------------------------------------------------
+--------l shift:	left side thrusters
+left
+------------------------------------------------------------------------
+--------alt:		brake (slows movement)
+
+------------------------------------------------------------------------
+--------space:		fire bullet
+
+------------------------------------------------------------------------
+--------n:		fire nuke
+
+------------------------------------------------------------------------
+--------t:		teleport(random location, Warning may kill you!
+
+------------------------------------------------------------------------
+--------r:		restart
+
+------------------------------------------------------------------------
+--------right alt: 	hard brake (stops all movement)
+
+------------------------------------------------------------------------
+--------r alt + del:	self destruct
+
+------------------------------------------------------------------------
+--------esc: 		exit 
+------------------------------------------------------------------------
+
+NOTES:
+	You can change these by editing ship.py please note that that you take responsibility for anything you broke.
+
+Game
+
+ Shield and Health functionality:
+your shield starts at 100% , when you are hit your shield goes down by 25%,
+when shield is at zero percent the
+ship becomes grey and means you no longer have a shield and the next time you are hit you
+will die the
+corresponding collors to shield in oreder are green = 100%, yellow = 75%, orange = 50%, red = 25%, grey = 0%
+
+
+
+-----------------------------------------------------------
+Credits
+Developed by: Ben Abrams
+. 
+Debugged by: Joe Fergusen, Ben Abrams, Russ Ross
+. 
+Designed by: Russ Ross, Ben Abrams, Joe Fergusen, Russ Clegg
+
+Thanks: Dixie State College CIT LAB
+

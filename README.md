@@ -10,6 +10,7 @@ Windows:
 
 OSX:
 - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- `git clone https://github.com/majormoses/asteroids.git`
 - `brew install sdl sdl_image sdl_mixer sdl_ttf portmidi`
 - `pip install https://bitbucket.org/pygame/pygame/get/default.tar.gz`
 

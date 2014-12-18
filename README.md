@@ -6,16 +6,21 @@ Retro Astroids
 Install instructions:
 
 Windows:
-- Install `pygame-1.9.1.win32-py2.6.msi` and `python-2.6.4.msi`
+- Install: `Install/pygame-1.9.1.win32-py2.6.msi` and `Install/python-2.6.4.msi`
+- Launch Game: Double click Asteroids.py
 
 OSX:
-- `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- `git clone https://github.com/majormoses/asteroids.git`
-- `brew install sdl sdl_image sdl_mixer sdl_ttf portmidi`
-- `pip install https://bitbucket.org/pygame/pygame/get/default.tar.gz`
+- Install Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Homebrew install git and use it over apples: `brew install git && mv /usr/bin/git /usr/bin/git-git`
+- Clone this repo: `git clone https://github.com/majormoses/asteroids.git`
+- Homerbrew some requirements: `brew install sdl sdl_image sdl_mixer sdl_ttf portmidi`
+- Grab pygame: `pip install https://bitbucket.org/pygame/pygame/get/default.tar.gz`
+- Launch Game: `./asteroids/Asteroids.py`
 
 Ubuntu/Debian:
-- `apt-get install python-pygame`
+- Install pygame: `apt-get install python-pygame`
+- Clone this repo: `git clone https://github.com/majormoses/asteroids.git`
+- Launch Game: `./asteroids/Asteroids.py`
 
 
 
